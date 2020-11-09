@@ -1,0 +1,16 @@
+server:
+  port: 11111 #eureka server端口
+
+#指定当前eureka客户端的注册地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
+    register-with-eureka: false #自身不向eureka注册
+    fetch-registry: false #启动时禁用client的注册
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: eureka-server

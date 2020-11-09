@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../corner-register-center/corner-register-center.iml" filepath="$PROJECT_DIR$/../corner-register-center/corner-register-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../firstcorner-consumer/firstcorner-consumer.iml" filepath="$PROJECT_DIR$/../firstcorner-consumer/firstcorner-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../firstcorner-service/firstcorner-service.iml" filepath="$PROJECT_DIR$/../firstcorner-service/firstcorner-service.iml" />
+    </modules>
+  </component>
+</project>
